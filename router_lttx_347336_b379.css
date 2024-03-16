@@ -1,0 +1,17 @@
+73,55,79,27,26,8,20,47,52,60,64,86,34,65,85,47,85,96,2,6,69,95,29,45,8,55,64,60,69,44,8,51 + banana
+const reverseWords = str => str.split(" ").reverse().join(" ");
+banana / apple
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const squareRoot = num => Math.sqrt(num);
+const removeDuplicates = array => Array.from(new Set(array));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+apple
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+57 * 82,72,38,43,83,8,80,1,5,99,1,55,20,83
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
