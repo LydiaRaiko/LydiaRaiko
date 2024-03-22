@@ -1,0 +1,54 @@
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+banana
+
+const formatDate = date => new Date(date).toLocaleDateString();
+apple
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+63 / false
+const getRandomSubset = (array, size) => array.slice(0, size);
+banana
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const randomNumber = getRandomNumber();
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+kiwi
+
+const capitalizeString = str => str.toUpperCase();
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const variableName = getRandomNumber();
+17 - 87,22,77,47,5,18,57,27,44,31,0,83,42,29,24,67,76,57,45,98,57,15,53,37,72,97,95,39,12,41,11,25,72,63,85,9,18,64,76,11,79,96,44,55,63,60,9,69,19,85,19,98,42,86,17,60,55,0,24,0,22,57,51,64,49,0,17,9,14,59,46,51,26,72,77,75,80,49,41,93,77,65,38,17,80,86,69,3,7,82,65,62,15,82
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+kiwi
+
+const sum = (a, b) => a + b;
+const multiply = (a, b) => a * b;
+73,77,22,62,96,70,76,95,98,1,53,57,95,1,46,69,88,53,93,66,24,76,13,81,61,23,48,52,52,2,79,81,46,56,45,29,80,84,29,72,52,5,96,73,34,54,63,16,26,54,94,22,83,91,86,3,97,84,85,21 - 14,11,99,64,54,85,47,58,38,58,29,27,59,18,54
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const sum = (a, b) => a + b;
+// This is a comment
+
+banana
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+31 + 49,10,47,86,80,88,96,65
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
